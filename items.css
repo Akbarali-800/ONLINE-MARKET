@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EAEAEA;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.ul_nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.main_nav {
+    width: 100%;
+    height: 167px;
+    background-color: rgb(37, 37, 37);
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 30px;
+}
+
+.nav_h2 {
+    color: white;
+    width: 300px;
+    font-size: 30px;
+}
+
+.box {
+    width: 300px;
+    height: 460px;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 20px;
+    border: 2px solid purple;
+    margin-top: 50px;
+}
+
+.box_text_p {
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.line {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid purple;
+    border-radius: 50px;
+}
+
+.main_div2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line1 {
+    border: 1px solid purple;
+    border-radius: 50px;
+    width: 250px;
+    height: 0;
+    margin: 0 auto;
+}
+
+
+.div2_box_h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.div2_box_p {
+    color: grey;
+    text-decoration: line-through;
+}
+
+.div2_box_p2 {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.star {
+    color: gray;
+    font-weight: 700;
+}
+
+.box_btn {
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid purple;
+    font-weight: 600;
+}
+
+.box_btn:hover {
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid purple;
+    background-color: rgba(128, 0, 128, 0.527);
+}
+
+.stand2{
+    height: 200px;
+    margin-bottom: 70px;
+}
+
+.stand3{
+    margin-bottom: 20px;
+}
+
+
+
+
+.foter_main_div {
+    margin-top: 50px;
+    width: 100%;
+    height: 150px;
+    background-color: #FFFFFF;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    /* margin-bottom: 100px; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.social_medias {
+    display: flex;
+    gap: 40px;
+    height: 20px;
+}
+
+.foter_p1 {
+    line-height: 30px;
+}
+
+.tillar {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
